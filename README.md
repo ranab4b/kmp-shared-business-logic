@@ -39,10 +39,12 @@ dependencyResolutionManagement {
 
 // app/build.gradle.kts
 dependencies {
-    implementation("com.github.ranab4b:kmp-shared-business-logic:1.0.0")
+    implementation("com.github.ranab4b:kmp-shared-business-logic:v1.0.0")
 }
 ```
 Build status for the tagged release: https://jitpack.io/#ranab4b/kmp-shared-business-logic
+(verified building — `status: "ok"` for `v1.0.0` at
+https://jitpack.io/api/builds/com.github.ranab4b/kmp-shared-business-logic/v1.0.0)
 
 **iOS (Swift Package Manager):**
 In Xcode: **File → Add Package Dependencies…** → paste this repo's URL
